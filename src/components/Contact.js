@@ -43,8 +43,11 @@ const Contact = (props) => (
         <section>
           <div className="contact-method">
             <span className="icon alt fa-phone"></span>
-            <h3>電話</h3>
+            <h3>電話・予約</h3>
             <a href="tel:0356590808"><span>03-5659-0808</span></a>
+            <div>
+              <a href="https://www.google.com/url?q=https://forms.gle/kvfFtcgjD4aZw3nV7&sa=D&ust=1599220847601000&usg=AFQjCNFzzI0Q31KOyeCt6s_EYqmrEc_oHA" target="_blank" className="button">予約フォーム</a>
+            </div>
           </div>
         </section>
 

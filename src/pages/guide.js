@@ -34,7 +34,8 @@ const Landing = (props) => (
           </tbody>
         </table>
         <p className="small">
-          ※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。
+※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。<br />
+※コロナ禍対応として土日・祝日は予約制でのご利用となります。<a href="https://www.google.com/url?q=https://forms.gle/kvfFtcgjD4aZw3nV7&sa=D&ust=1599220847601000&usg=AFQjCNFzzI0Q31KOyeCt6s_EYqmrEc_oHA" target="_blank">予約フォーム</a>からお申し込みください。
         </p>
         <hr />
         <table className="alt">
@@ -95,7 +96,7 @@ const Landing = (props) => (
         <p className="text">
           施設のご利用にあたって事前予約（土日・祝日のみ）にご協力ください。<br />
           当店では新型コロナウイルス感染拡大防止のため、コロナ禍において施設利用人数を最大70名までと制限しています。<br />
-          混雑の予想される土日・祝日のみ、予約フォームをご用意しております。<br />
+          混雑の予想される土日・祝日のみ、<a href="https://www.google.com/url?q=https://forms.gle/kvfFtcgjD4aZw3nV7&sa=D&ust=1599220847601000&usg=AFQjCNFzzI0Q31KOyeCt6s_EYqmrEc_oHA" target="_blank">予約フォーム</a>をご用意しております。<br />
           こちらからご来店の予約をいただくと待ち時間なくご利用が可能です。<br />
           ご予約は前日の22時まで受け付けております。<br />
           ご予約は無料です。キャンセルのご連絡は当日のご予約時間の10分前までにご連絡ください。<br />
