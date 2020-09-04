@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import pdf1 from '../assets/files/register.pdf'
 import pdf2 from '../assets/files/rule.pdf'
 import pdf3 from '../assets/files/rule.2.pdf'
+import floorGuide from '../assets/images/floorGuide.png'
 
 const Landing = (props) => (
   <Layout>
@@ -159,6 +160,16 @@ const Landing = (props) => (
           <dt>館内換気等に伴う気温の変化にご注意ください</dt>
           <dd>換気等のために館内の気温が一定しない場合があります。お客様側にてご対応くださいますようお願い申し上げます。</dd>
         </dl>
+      </div>
+    </section>
+    <section id="three">
+      <div className="inner">
+        <header className="major">
+          <h2>フロアガイド</h2>
+        </header>
+        <div className="floorGuide">
+          <a href={floorGuide} target="_blank"><img src={floorGuide} /></a>
+        </div>
       </div>
     </section>
   </div>

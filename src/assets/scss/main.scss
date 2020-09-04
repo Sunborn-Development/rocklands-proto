@@ -37,7 +37,8 @@
 
 			@include breakpoint(small) {
 				@include padding(3em, 0);
-				width: calc(100% - 3em);
+        width: calc(100% - 3em);
+        //width: 100%;
 			}
 		}
 	}

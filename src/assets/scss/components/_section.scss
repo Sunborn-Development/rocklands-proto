@@ -62,6 +62,9 @@
 		}
 
 		@include breakpoint(small) {
+      .inner {
+        width: 100% !important;
+      }
 			&.major {
 				> p {
 					br {
@@ -133,5 +136,13 @@
       margin-left: 1em !important;
       font-size: 0.9em;
     }
+  }
+
+  .floorGuide {
+    width: 90%;
+    margin: 0 auto 4em;
+    transform: translateX(0.5em);
+    a { border: none; display: block; }
+    img { width: 100%; }
   }
 
