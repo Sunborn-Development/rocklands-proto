@@ -6,6 +6,10 @@ import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
+import ogp from '../assets/images/ogp.jpg'
+
+const title = 'ROCKLANDS｜東京・葛西のロッククライミング（リード・トップロープ・ボルダリング）ジム'
+const description = 'ROCKLANDSは東京23区内で屈指の規模を誇り、ロープを使ったルート（リード・トップロープ）クライミングエリアと人気のボルダリングエリアが併設された総合ロッククライミングジムです。キッズエリアがありファミリー利用もしやすく、ロッカールームが広く清潔で女性の方からも好評です。東京メトロ東西線葛西駅から徒歩5分。東京の中心からも好アクセスで、東京を代表するジムです。' 
 
 class HomeIndex extends React.Component {
   render() {
@@ -13,9 +17,12 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="ROCKLANDS｜東京・葛西のロッククライミング（リード・トップロープ・ボルダリング）ジム"
+          title={title}
           meta={[
-            { name: 'description', content: 'ROCKLANDSは東京23区内で屈指の規模を誇り、ロープを使ったルート（リード・トップロープ）クライミングエリアと人気のボルダリングエリアが併設された総合ロッククライミングジムです。キッズエリアがありファミリー利用もしやすく、ロッカールームが広く清潔で女性の方からも好評です。東京メトロ東西線葛西駅から徒歩5分。東京の中心からも好アクセスで、東京を代表するジムです。' },
+            { name: 'description', content: description },
+            { property: 'og:title', content: title },
+            { property: 'og:description', content: description },
+            { property: 'og:image', content: `https://rocklands.tokyo${ogp}` },
           ]}
         >
         </Helmet>
