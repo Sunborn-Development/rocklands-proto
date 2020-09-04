@@ -1,0 +1,137 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Section/Article */
+
+	section, article {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	header {
+		&.major {
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			margin-bottom: _size(element-margin);
+
+			> :first-child {
+				margin-bottom: 0;
+				width: calc(100% + 0.5em);
+
+				&:after {
+					content: '';
+					background-color: _palette(fg-bold);
+					display: block;
+					height: 2px;
+					margin: 0.325em 0 0.5em 0;
+					width: 100%;
+				}
+			}
+      > h2 {
+        span { font-size: 0.75em; }
+      }
+
+			> p {
+				font-size: 0.9em;
+				//font-weight: _font(weight-bold);
+				letter-spacing: _font(letter-spacing-alt);
+				margin-bottom: 0;
+				text-transform: uppercase;
+			}
+
+
+			body.is-ie & {
+				> :first-child {
+					&:after {
+						max-width: 9em;
+					}
+				}
+
+				> h1 {
+					&:after {
+						max-width: 100% !important;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			&.major {
+				> p {
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+  hr {
+    height: 1em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1.0em;
+  }
+
+  p.text {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+  }
+  p.small {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+  }
+
+  ul {
+    margin-bottom: 1em !important;
+  }
+
+  li {
+    font-size: 0.9em;
+  }
+  table {
+    th {
+      width: 10em;
+      span {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 0.9em;
+        padding-left: 0.5em;
+        vertical-align: bottom;
+      }
+    }
+    td {
+      font-size: 0.8em;
+      vertical-align: middle;
+      span {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 0.9em;
+        padding-left: 0.5em;
+        vertical-align: bottom;
+      }
+      b {
+        font-weight: normal;
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  dl {
+    margin-bottom: 1em;
+    dd {
+      margin-left: 1em !important;
+      font-size: 0.9em;
+    }
+  }
+
