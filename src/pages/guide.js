@@ -4,6 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
+import pdf1 from '../assets/files/register.pdf'
+import pdf2 from '../assets/files/rule.pdf'
+import pdf3 from '../assets/files/rule.2.pdf'
+
 const Landing = (props) => (
   <Layout>
     <Helmet>
@@ -52,8 +56,8 @@ const Landing = (props) => (
         <h3>施設利用規約</h3>
         <p className="text">下記PDFファイルにて詳細をご確認ください。</p>
         <ul>
-          <li>利用規約同意書（<a href="/static/rule.pdf" target="_blank">PDFファイル</a>）</li>
-          <li>コロナウイルス感染拡大防止に関する同意書（<a href="/static/rule.2.pdf" target="_blank">PDFファイル</a>）</li>
+          <li>利用規約同意書（<a href={pdf2} target="_blank">PDFファイル</a>）</li>
+          <li>コロナウイルス感染拡大防止に関する同意書（<a href={pdf3} target="_blank">PDFファイル</a>）</li>
         </ul>
         <hr />
         <h3>初回登録時</h3>
@@ -62,9 +66,9 @@ const Landing = (props) => (
           PDFファイルをダウンロード・印刷していただき、事前にご記入いただくと当日の受付がスムーズです。
         </p>
         <ul>
-          <li>新規会員登録書（<a href="/static/register.pdf" target="_blank">PDFファイル</a>）</li>
-          <li>利用規約同意書（<a href="/static/rule.pdf" target="_blank">PDFファイル</a>）</li>
-          <li>コロナウイルス感染拡大防止に関する同意書（<a href="/static/rule.2.pdf" target="_blank">PDFファイル</a>）</li>
+          <li>新規会員登録書（<a href={pdf1} target="_blank">PDFファイル</a>）</li>
+          <li>利用規約同意書（<a href={pdf2} target="_blank">PDFファイル</a>）</li>
+          <li>コロナウイルス感染拡大防止に関する同意書（<a href={pdf3} target="_blank">PDFファイル</a>）</li>
         </ul>
         <p className="small">
           ※「18歳未満、または高校生以下」の方は保護者のサインが必須ですので特にご注意ください。保護者サインが無いと施設利用ができません。
