@@ -7,7 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import pdf1 from '../assets/files/register.pdf'
 import pdf2 from '../assets/files/rule.pdf'
 import pdf3 from '../assets/files/rule.2.pdf'
-import floorGuide from '../assets/images/floorGuide.png'
+import floorGuide from '../assets/images/floorGuide.2.png'
 
 const Landing = (props) => (
   <Layout>
@@ -79,12 +79,14 @@ const Landing = (props) => (
         <h3>未成年の方のご利用</h3>
         <p className="text">
           保護者同伴の上、3歳からご利用可能です。<br />
-          小学生・中学生のみでのご利用はできません。必ず保護者の方の付き添いが必要です。<br />
-          高校生以下の方のご利用時間には以下の制限があります。
+          小学生のみでのご利用はできません。必ず保護者の方の同伴が必要です。<br />
+          中学生は初回のみ保護者の同伴が必要です。<br />
+          高校生以下の方のご利用時間には以下の制限があります。<br />
+          保護者同伴の上、3歳からご利用可能です。<br />
         </p>
         <ul>
           <li>小学生以下の方:19時まで</li>
-          <li>中学生:保護者同伴ありの場合は21時まで／保護者の同伴がない場合には19時まで</li>
+          <li>中学生:保護者同伴ありの場合は21時まで／保護者の同伴がない場合は19時まで</li>
           <li>高校生:22時まで</li>
         </ul>
       </div>
