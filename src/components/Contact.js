@@ -46,7 +46,7 @@ const Contact = (props) => (
             <h3>電話・予約</h3>
             <a href="tel:0356590808"><span>03-5659-0808</span></a>
             <div>
-              <a href="https://www.google.com/url?q=https://forms.gle/kvfFtcgjD4aZw3nV7&sa=D&ust=1599220847601000&usg=AFQjCNFzzI0Q31KOyeCt6s_EYqmrEc_oHA" target="_blank" className="button">予約フォーム</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank" className="button">予約フォーム</a>
             </div>
           </div>
         </section>
@@ -55,7 +55,7 @@ const Contact = (props) => (
           <div className="contact-method">
             <span className="icon alt fa-envelope"></span>
             <h3>お問い合わせ</h3>
-            <a href="mailto:official.rocklands@gmail.com">official.rocklands@gmail.com</a>
+            <a href="mailto:staff.rocklands@gmail.com">staff.rocklands@gmail.com</a>
           </div>
         </section>
 
