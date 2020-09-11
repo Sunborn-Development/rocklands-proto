@@ -88,6 +88,11 @@ const Landing = (props) => (
           <li>中学生:保護者同伴ありの場合は21時まで／保護者の同伴がない場合は19時まで</li>
           <li>高校生:22時まで</li>
         </ul>
+        <hr />
+        <h3>同伴について</h3>
+        <p className="text">
+          保護者やビレイヤーとして利用者の方に同伴される場合、会員登録・施設利用料は不要です。<br />
+          ただし、同伴の方も施設利用者数の制限対象となります。土日・祝日は予約制でのご利用となります。<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>からお申し込みください。<br />
       </div>
     </section>
     <section id="three">
