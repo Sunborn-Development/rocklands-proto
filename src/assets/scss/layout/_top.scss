@@ -1,0 +1,17 @@
+#top {
+  position: fixed;
+  z-index: 20000;
+  top: 0;
+  text-align: center;
+  font-size: 0.65em;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1em;
+  width: 100%;
+  background: #2b2d4b;
+  color: rgb(243, 243, 250);
+
+  @include breakpoint(small) {
+    span { display: none; }
+  }
+}

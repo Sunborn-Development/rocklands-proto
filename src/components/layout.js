@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import '../assets/scss/main.scss'
 import Header from './Header'
+import Top from './Top'
 import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -41,6 +42,7 @@ class Layout extends React.Component {
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <div id="wrapper">
+                    <Top />
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
                     <Contact />
