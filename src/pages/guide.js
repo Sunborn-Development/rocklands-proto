@@ -36,7 +36,7 @@ const Landing = (props) => (
         </table>
         <p className="small">
 ※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。<br />
-※コロナ禍対応として土日・祝日は予約制でのご利用となります。<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>からお申し込みください。
+※コロナ禍対応として土日・祝日は予約制でのご利用となります。<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>からお申し込みください。尚、ご利用は2部入れ替え制（開店〜14:00／14:00〜閉店）となっており、人数制限を行う関係から利用枠ごとに料金が発生いたします。予めご了承ください。
         </p>
         <hr />
         <table className="alt">
