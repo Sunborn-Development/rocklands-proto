@@ -1,11 +1,14 @@
 import React from 'react'
 
 //import pdf from '../assets/files/cp.202010.pdf'
-import pdf from '../assets/files/cp.202011.pdf'
+//import pdf from '../assets/files/cp.202011.pdf'
+import pdf from '../assets/files/cp.202012.pdf'
 
 const Top = () => (
 <div id="top">
-<a href={pdf} target="_blank" rel="noreferer">【11月も継続中！Welcomeキャンペーン】<span>新規ご来店の方、新規の方を連れてきてくださった会員の方、どちらもとってもお得！</span>詳細はこちら＞</a>
+どっちもお得！初めてのご来店 / 初めての方とご同伴】Welcom to the ROCKLANDSプログラム！
+
+<a href={pdf} target="_blank" rel="noreferer">【どっちもお得！初めてのご来店 / 初めての方とご同伴】<span>Welcom to the ROCKLANDSプログラム！</span>詳細はこちら＞</a>
 </div>
 )
 
