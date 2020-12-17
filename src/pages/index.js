@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Calendar from '../components/Calendar'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -76,6 +77,9 @@ class HomeIndex extends React.Component {
               <Link to="/access" className="link primary"></Link>
             </article>
          */}
+          </section>
+          <section id="two" className="tiles">
+      <Calendar />
           </section>
 
         </div>
