@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
+import Calendar from '../components/Calendar'
 
 import pdf1 from '../assets/files/register.pdf'
 import pdf2 from '../assets/files/rule.pdf'
@@ -48,6 +49,10 @@ const Landing = (props) => (
           </tbody>
         </table>
       </div>
+    </section>
+
+    <section>
+      <Calendar />
     </section>
 
     <section id="two">

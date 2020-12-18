@@ -79,7 +79,7 @@ class HomeIndex extends React.Component {
          */}
           </section>
           <section id="two" className="tiles">
-      <Calendar />
+            <Calendar />
           </section>
 
         </div>
