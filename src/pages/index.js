@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <header className="major">
-                <h2><span>Climing & Bouldering Gym</span><br />ROCKLANDS</h2>
+                <h2><span>Climbing & Bouldering Gym</span><br />ROCKLANDS</h2>
               </header>
               <p className="text">
 東京23区内で屈指の規模を誇るロッククライミングジム「ロックランズ」。<br />
