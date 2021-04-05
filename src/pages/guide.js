@@ -31,8 +31,8 @@ const Landing = (props) => (
           </thead>
           <tbody>
             <tr><td>平日</td><td>12:00 ~ 23:00</td></tr>
-            <tr><td>土曜日</td><td>8:00 ~ 22:00</td></tr>
-            <tr><td>日曜日・祝日</td><td>8:00 ~ 21:00</td></tr>
+            <tr><td>土曜日</td><td>二部制（一日券は中止）<span>*5</span><br />①8:00 ~ 14:00<br />②14:00 ~ 22:00</td></tr>
+            <tr><td>日曜日・祝日</td><td>二部制（一日券は中止）<span>*5</span><br />①8:00 ~ 14:00<br />②14:00 ~ 21:00</td></tr>
           </tbody>
         </table>
         <p className="small">
