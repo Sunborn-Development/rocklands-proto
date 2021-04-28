@@ -115,7 +115,7 @@ const Landing = (props) => (
             <tr><td>チョーク（コロナ期間中は液体チョークのみ）</td><td>¥110</td></tr>
             <tr><td>ハーネス</td><td>¥330</td></tr>
             <tr><td>ビレイ器具</td><td>¥330</td></tr>
-            <tr><td><b>ロープ</b>（コロナ期間中はレンタル中止）</td><td><b>¥440</b></td></tr>
+            <tr><td>ロープ</td><td>¥440</td></tr>
             <tr><td>駐車場</td><td>¥550</td></tr>
           </tbody>
         </table>
