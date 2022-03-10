@@ -16,7 +16,7 @@ const Landing = (props) => (
   <div id="main">
     <section id="one">
       <div className="inner">
-        <h3>Climbing Park ROCKLANDS</h3>
+        <h3>Climbing & Bouldering Gym<br />ROCKLANDS</h3>
         <p className="small">
           〒134-0084 東京都江戸川区東葛西5丁目27番16号<br />
           東京メトロ東西線葛西駅より徒歩5分
