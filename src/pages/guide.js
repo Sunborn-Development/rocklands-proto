@@ -31,13 +31,12 @@ const Landing = (props) => (
           </thead>
           <tbody>
             <tr><td>平日</td><td>12:00 ~ 23:00</td></tr>
-            <tr><td>土曜日</td><td>二部制（一日券は中止）<br />①8:00 ~ 14:00<br />②14:00 ~ 22:00</td></tr>
-            <tr><td>日曜日・祝日</td><td>二部制（一日券は中止）<br />①8:00 ~ 14:00<br />②14:00 ~ 21:00</td></tr>
+            <tr><td>土・日・祝日</td><td>8:00 ~ 21:00</td></tr>
           </tbody>
         </table>
         <p className="small">
 ※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。<br />
-※コロナ禍対応として土日・祝日は予約制でのご利用となります。<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>からお申し込みください。尚、ご利用は二部入れ替え制（開店〜14:00／14:00〜閉店）となっており、人数制限を行う関係から利用枠ごとに料金が発生いたします。予めご了承ください。
+※混雑状況によって入場制限をする場合がございます。事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただくとスムーズです（「開店〜14時」の枠で予約）。
         </p>
         <hr />
         <table className="alt">
@@ -45,7 +44,7 @@ const Landing = (props) => (
             <tr><th>定休日</th></tr>
           </thead>
           <tbody>
-            <tr><td>なし（臨時休業あり）</td></tr>
+            <tr><td>なし（臨時休業がございますので営業カレンダーをご参照ください。）</td></tr>
           </tbody>
         </table>
       </div>
