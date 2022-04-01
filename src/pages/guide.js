@@ -22,6 +22,9 @@ const Landing = (props) => (
   <div id="main">
     <section id="one">
       <div className="inner">
+         <p className="small">
+          2022.4.1更新
+        </p>
         <header className="major">
           <h2>営業時間</h2>
         </header>
