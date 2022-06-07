@@ -157,6 +157,7 @@ const Landing = (props) => (
               </td>
               <td>
                 ¥4,400 *1,2<br />
+              </td>
             </tr>
             <tr>
               <td>
@@ -168,6 +169,7 @@ const Landing = (props) => (
               </td>
               <td>
                 ¥37,400 *1,2<br />
+              </td>
             </tr>
           </tbody>
         </table>
