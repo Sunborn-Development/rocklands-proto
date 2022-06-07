@@ -138,6 +138,7 @@ const Landing = (props) => (
               <td>
                 ¥9,900 *1,2<br />
                 （小学2～中年生・保護者ビレイ講習込み）
+              </td>
             </tr>
           </tbody>
         </table>
