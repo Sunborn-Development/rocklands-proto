@@ -171,6 +171,22 @@ const Landing = (props) => (
           </tbody>
         </table>
 
+        <table className="alt">
+          <thead>
+            <tr><th>メニュー</th><th>キッズ</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                ボルダリング知育プログラム＜のぼちー＞
+              </td>
+              <td>
+                詳しくは＜<a href="https://www.hummingbird-climbing.com/" target="_blank">公式HP</a>＞をご確認ください。
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
 
         <hr />
         <p className="small">
