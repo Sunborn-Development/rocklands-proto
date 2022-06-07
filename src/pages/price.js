@@ -109,7 +109,7 @@ const Landing = (props) => (
         </header>
         <table className="alt">
           <thead>
-            <tr><th>メニュー</th><th>一般</th><th>キッズ・ユース</th></tr>
+            <tr><th>講習</th><th>一般</th><th>キッズ・ユース</th></tr>
           </thead>
           <tbody>
             <tr>
@@ -145,7 +145,7 @@ const Landing = (props) => (
 
         <table className="alt">
           <thead>
-            <tr><th>メニュー</th><th>一般・学生</th><th>キッズ</th></tr>
+            <tr><th>スクール</th><th>一般・学生</th><th>キッズ</th></tr>
           </thead>
           <tbody>
             <tr>
@@ -171,17 +171,12 @@ const Landing = (props) => (
                 ¥37,400 *1,2<br />
               </td>
             </tr>
-          </tbody>
-        </table>
-
-        <table className="alt">
-          <thead>
-            <tr><th>メニュー</th><th>キッズ</th></tr>
-          </thead>
-          <tbody>
             <tr>
               <td>
                 ボルダリング知育プログラム＜のぼちー＞
+              </td>
+              <td>
+                -
               </td>
               <td>
                 詳しくは＜<a href="https://www.hummingbird-climbing.com/" target="_blank">公式HP</a>＞をご確認ください。
