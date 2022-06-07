@@ -100,7 +100,98 @@ const Landing = (props) => (
 
       </div>
     </section>
+
+
     <section id="three">
+      <div className="inner">
+        <header className="major">
+          <h2>講習・スクール</h2>
+        </header>
+        <table className="alt">
+          <thead>
+            <tr><th>メニュー</th><th>一般</th><th>キッズ・ユース</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                初心者向け・トップロープ講習<br />
+                （1回・2時間）<br />
+                *別途、施設利用料
+              </td>
+              <td>
+                無料 *1
+              </td>
+              <td>
+                無料 *1
+              </td>
+            </tr>
+            <tr>
+              <td>
+                初心者向け・リード講習<br />
+                （全2回・各2時間）<br />
+                ※施設利用料込み
+              </td>
+              <td>
+                ¥6,930 *1,2<br />
+                （ビレイ講習のみの参加可）
+              </td>
+              <td>
+                ¥9,900 *1,2<br />
+                （小学2～中年生・保護者ビレイ講習込み）
+            </tr>
+          </tbody>
+        </table>
+
+        <table className="alt">
+          <thead>
+            <tr><th>メニュー</th><th>一般・学生</th><th>キッズ</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                レギュラースクール・体験クラス（1回） *3
+              </td>
+              <td>
+                ¥5,500 *1,2
+              </td>
+              <td>
+                ¥4,400 *1,2<br />
+            </tr>
+            <tr>
+              <td>
+                レギュラースクール・ファンクラス *3,4<br />
+                （全12回・3ヶ月）
+              </td>
+              <td>
+                ¥50,600 *1,2
+              </td>
+              <td>
+                ¥37,400 *1,2<br />
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <p className="small">
+          *1:レンタル無料<br />
+          *2:施設利用料込み<br />
+          *3:講習時間は年齢区分によって異なります。詳しくはお問い合わせください。<br />
+          *4:振替による期間延長の場合、スポットのレッスン日以外は施設利用料が無料とはなりません。
+        </p>
+
+        <p className="small">
+          ※スクール生自身の都合による途中退会や欠席に対する返金は行いません。<br />
+          ※コーチは変更となる場合がございます。<br />
+          ※各スクールの定員は4名です。<br />
+          ※パス会員の方は割引がございます。但し、月の途中でのお申し込みの場合、1か月内の期間重複は20日以上であることが必要です。
+        </p>
+      </div>
+    </section>
+
+
+
+    <section id="four">
       <div className="inner">
         <header className="major">
           <h2>各種レンタル品・駐車場</h2>
@@ -124,6 +215,8 @@ const Landing = (props) => (
         </p>
       </div>
     </section>
+
+
   </div>
 
   </Layout>
