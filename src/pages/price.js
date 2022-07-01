@@ -18,7 +18,7 @@ const Landing = (props) => (
     <section id="one">
       <div className="inner">
         <p className="small">
-          料金はすべて税込（10%） / 2022.6.7更新
+          料金はすべて税込（10%） / 2022.7.1更新
         </p>
         <hr />
         <header className="major">
@@ -63,7 +63,7 @@ const Landing = (props) => (
             <tr><th></th><th>一般</th><th>学生・キッズ<span>*2,3</span></th></tr>
           </thead>
           <tbody>
-            <tr><td>半日券<span>*5</span><br />①開店〜14時<br />②14時〜閉店</td><td>¥2,200</td><td>¥1,650</td></tr>
+            <tr><td>半日券<span>*5</span><br />①開店〜15時<br />②15時〜閉店</td><td>¥2,200</td><td>¥1,650</td></tr>
             <tr><td>1日券<span>*5</span><br />開店〜閉店</td><td>¥2,750</td><td>¥2,200</td></tr>
           </tbody>
         </table>
@@ -93,7 +93,7 @@ const Landing = (props) => (
           *2:大学生、専門学校生、高校生、中学生および小学生以下の方に適用される料金です。キッズは3歳以上です。キッズ〜小中学生のご利用には大人の方の付き添いが必要です（中学生の付き添いは初回施設利用時のみ必須）。<br />
           *3:学生料金でのご利用の際には学生証の提示をお願いすることがあります。 <br />
           *4:シニア料金 (60 歳以上の方 ) でのご利用の際には公的な身分証明書等のご提示をお願いすることがあります。<br />
-          *5:混雑状況によって入場制限をする場合がございます。事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただくとスムーズです（「開店〜14時」の枠で予約）<br />
+          *5:混雑状況によって入場制限をする場合がございます。事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただくとスムーズです。一日利用の場合は「開店〜15時」の枠でご予約ください。<br />
           *6:回数券は施設利用料のみに利用できます。利用期限はご購入日から2年間です。受け取りは購入者のみで、回数券使用開始後（会員番号＆氏名記入後）の譲渡はできません。
         </p>
 
