@@ -23,7 +23,7 @@ const Landing = (props) => (
     <section id="one">
       <div className="inner">
          <p className="small">
-          2022.6.7更新
+          2022.7.1更新
         </p>
         <header className="major">
           <h2>営業時間</h2>
@@ -34,12 +34,12 @@ const Landing = (props) => (
           </thead>
           <tbody>
             <tr><td>平日</td><td>12:00 ~ 23:00</td></tr>
-            <tr><td>土・日・祝日</td><td>8:00 ~ 21:00</td></tr>
+            <tr><td>土・日・祝日</td><td>9:00 ~ 21:00</td></tr>
           </tbody>
         </table>
         <p className="small">
 ※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。<br />
-※混雑状況によって入場制限をする場合がございます。事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただくとスムーズです（「開店〜14時」の枠で予約）。
+※混雑状況によって入場制限をする場合がございます。事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただくとスムーズです（「開店〜15時」の枠で予約）。
         </p>
         <hr />
         <table className="alt">
