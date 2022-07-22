@@ -7,6 +7,7 @@ import Calendar from '../components/Calendar'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
+import pic04 from '../assets/images/pic04.jpg'
 import ogp from '../assets/images/ogp.jpg'
 
 const title = 'ROCKLANDS｜東京・葛西のロッククライミング（リード・トップロープ・ボルダリング）ジム'
@@ -46,6 +47,18 @@ class HomeIndex extends React.Component {
             </div>
           </section>
 
+          <section className="tiles">
+            <article className="wide" style={{backgroundImage: `url(${pic02})`}}>
+              <header className="major">
+                <h3>WEB SHOP</h3>
+                <p>
+「ROCKLANDS」がオススメする厳選アイテムを展開したウェブショップです。オリジナルのアパレルやクラフトビールから、専門ギア、専門ウェアなど、総合クライミングジムだからこそ、外岩・ジム・ロープ・ボルダー、あらゆる現場で試されたスタイルと実用性あるアイテムで展開。
+                </p>
+              </header>
+              <a href="https://ec.rocklands.tokyo/" target="_blank" className="link primary"></a>
+            </article>
+          </section>
+
           <section id="one" className="tiles">
             <article style={{backgroundImage: `url(${pic01})`}}>
               <header className="major">
@@ -54,7 +67,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/guide" className="link primary"></Link>
             </article>
-            <article style={{backgroundImage: `url(${pic02})`}}>
+            <article style={{backgroundImage: `url(${pic04})`}}>
               <header className="major">
                 <h3>料金</h3>
                 <p>会員登録、施設利用、各種レンタル品、駐車場等の料金（税込）</p>

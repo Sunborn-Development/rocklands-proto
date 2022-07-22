@@ -39,6 +39,8 @@
     position: relative;
     //width: 40%;
     width: 50%;
+    &.wide { width: 100%; }
+
 
     .image {
       display: none;
@@ -120,7 +122,7 @@
 
     &:nth-child(6n - 4) {
       &:before {
-        background-color: _palette(accent2);
+        background-color: _palette(accent3);
       }
     }
 
@@ -147,6 +149,12 @@
         background-color: _palette(accent6);
       }
     }
+
+    &.wide {
+      &:before {
+        background-color: _palette(accent2);
+      }
+    }
   }
 
   @include breakpoint(large) {
@@ -161,6 +169,7 @@
   @include breakpoint(medium) {
     article {
       width: 50% !important;
+      &.wide { width: 100% !important; }
     }
   }
 

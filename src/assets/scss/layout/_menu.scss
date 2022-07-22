@@ -80,6 +80,13 @@
           line-height: 4em;
           text-decoration: none;
           text-transform: uppercase;
+
+          > img {
+            display: inline-block;
+            margin-left: 4px;
+            width: 12px;
+            height: 12px;
+          }
         }
 
         > .button {
