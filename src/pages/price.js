@@ -18,7 +18,7 @@ const Landing = (props) => (
     <section id="one">
       <div className="inner">
         <p className="small">
-          料金はすべて税込（10%） / 2022.7.1更新
+          料金はすべて税込（10%） / 2022.9.7更新
         </p>
         <hr />
         <header className="major">
