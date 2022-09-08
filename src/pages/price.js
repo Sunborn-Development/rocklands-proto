@@ -76,7 +76,7 @@ const Landing = (props) => (
           <tbody>
             <tr><td>回数券<br />￥22,000のご利用券<span>*6</span></td><td colspan="2">¥20,000</td></tr>
             <tr><td>月パス</td><td>¥13,860</td><td>¥9,900</td></tr>
-            <tr><td>サブスクパス *7<br /><a href="https://forms.gle/2VKKcP2xb2TKce299">お申込みフォーム</a></td><td>¥12,890</td><td>¥9,240</td></tr>
+            <tr><td>サブスクパス *7<br />＜<a href="https://forms.gle/2VKKcP2xb2TKce299">お申込みフォーム</a>＞</td><td>¥12,890</td><td>¥9,240</td></tr>
             <tr><td>年間パス</td><td>¥138,600</td><td>¥99,000</td></tr>
           </tbody>
         </table>
