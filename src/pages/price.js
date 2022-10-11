@@ -128,7 +128,6 @@ const Landing = (props) => (
         ＜お問い合わせ＞<br />
         03-5659-0808 / <a href="mailto:staff.rocklands@gmail.com">メール</a>
         </p>
- ＜詳細・スケジュール</a>＞<br />
    
         <table className="alt">
           <thead>
