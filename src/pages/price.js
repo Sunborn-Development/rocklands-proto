@@ -200,7 +200,7 @@ const Landing = (props) => (
                 -
               </td>
               <td>
-                詳しくは＜<a href="https://www.hummingbird-climbing.com/" target="_blank">公式HP</a>＞をご確認ください。
+                詳しくは＜<a href="https://www.hummingbird-climbing.com" target="_blank">公式HP</a>＞をご確認ください。
               </td>
             </tr>
 
