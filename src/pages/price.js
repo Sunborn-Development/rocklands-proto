@@ -84,7 +84,7 @@ const Landing = (props) => (
         <p className="small">
         ROCKLANDSでは、各種イベントや撮影などの様々な用途に向けて貸し切りでのご利用も承っております。<br />
         全館貸し切りから、リードエリアのみ、ボルダリングエリアのみ、キッズエリアのみなど、時間帯を含め用途やご予算に合わせて柔軟な組み合わせが可能です。<br />
-        費用は内容確認の上、個別にお見積りいたしますのでお気軽にお問い合わせください。<br />
+        費用は内容確認の上、個別にお見積りいたしますのでお気軽にお問い合わせください。<br /><br />
         ＜お問い合わせ＞<br />
         03-5659-0808 / <a href="mailto:official.rocklands@gmail.com">メール</a>
         </p>
@@ -117,6 +117,15 @@ const Landing = (props) => (
         <header className="major">
           <h2>講習・スクール</h2>
         </header>
+
+<p className="small">
+        各種講習・スクールは<a href="https://calendar.google.com/calendar/embed?src=nrqdn4ehck83v1re6bbmsqk2vc%40group.calendar.google.com&ctz=Asia%2FTokyo">公式カレンダー</a>の各予定からご確認いただけます。<br />
+        ご都合に合わせてご利用いただけますのでお気軽にお問い合わせください。<br /><br />
+        ＜お問い合わせ＞<br />
+        03-5659-0808 / <a href="mailto:staff.rocklands@gmail.com">メール</a>
+        </p>
+ ＜詳細・スケジュール</a>＞<br />
+   
         <table className="alt">
           <thead>
             <tr><th>講習</th><th>一般</th><th>キッズ・ユース</th></tr>
