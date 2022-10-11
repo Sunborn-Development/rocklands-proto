@@ -120,11 +120,11 @@ const Landing = (props) => (
           <h2>講習・スクール</h2>
         </header>
 
-<p className="small">
+        <p className="small">
         各種講習・スクールは公式カレンダーの各予定からご確認いただけます。<br />
         ご都合に合わせてご利用いただけますのでお気軽にお問い合わせください。
-  </p>
-<p clasName="small">
+        </p>
+        <p clasName="small">
         ＜お問い合わせ＞<br />
         03-5659-0808 / <a href="mailto:staff.rocklands@gmail.com">メール</a>
         </p>
