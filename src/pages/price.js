@@ -121,7 +121,7 @@ const Landing = (props) => (
         </header>
 
         <p className="small">
-        各種講習・スクールは公式カレンダーの各予定からご確認いただけます。<br />
+        各種講習・スクールは<a href="https://calendar.google.com/calendar/embed?src=nrqdn4ehck83v1re6bbmsqk2vc%40group.calendar.google.com&ctz=Asia%2FTokyo" target="_blank">公式カレンダー</a>の各予定からご確認いただけます。<br />
         ご都合に合わせてご利用いただけますのでお気軽にお問い合わせください。
         </p>
         <p clasName="small">
