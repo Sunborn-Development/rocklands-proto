@@ -18,7 +18,7 @@ const Landing = (props) => (
     <section id="one">
       <div className="inner">
         <p className="small">
-          料金はすべて税込（10%） / 2022.9.7更新
+          料金はすべて税込（10%） / 2022.10.12更新
         </p>
         <hr />
         <header className="major">
@@ -84,7 +84,9 @@ const Landing = (props) => (
         <p className="small">
         ROCKLANDSでは、各種イベントや撮影などの様々な用途に向けて貸し切りでのご利用も承っております。<br />
         全館貸し切りから、リードエリアのみ、ボルダリングエリアのみ、キッズエリアのみなど、時間帯を含め用途やご予算に合わせて柔軟な組み合わせが可能です。<br />
-        費用は内容確認の上、個別にお見積りいたしますのでお気軽にお問い合わせください。<br /><br />
+        費用は内容確認の上、個別にお見積りいたしますのでお気軽にお問い合わせください。
+        </p>
+        <p className="small">
         ＜お問い合わせ＞<br />
         03-5659-0808 / <a href="mailto:official.rocklands@gmail.com">メール</a>
         </p>
@@ -119,8 +121,10 @@ const Landing = (props) => (
         </header>
 
 <p className="small">
-        各種講習・スクールは<a href="https://calendar.google.com/calendar/embed?src=nrqdn4ehck83v1re6bbmsqk2vc%40group.calendar.google.com&ctz=Asia%2FTokyo">公式カレンダー</a>の各予定からご確認いただけます。<br />
+        各種講習・スクールは公式カレンダーの各予定からご確認いただけます。<br />
         ご都合に合わせてご利用いただけますのでお気軽にお問い合わせください。<br /><br />
+  </p>
+<p clasName="small">
         ＜お問い合わせ＞<br />
         03-5659-0808 / <a href="mailto:staff.rocklands@gmail.com">メール</a>
         </p>
@@ -146,7 +150,7 @@ const Landing = (props) => (
             <tr>
               <td>
                 初心者向け・リード講習<br />
-                （全2回・各2時間）<br />
+                （全2回・各2時間）
               </td>
               <td>
                 ¥6,930 *1,2<br />
