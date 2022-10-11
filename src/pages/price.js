@@ -124,7 +124,7 @@ const Landing = (props) => (
         各種講習・スクールは<a href="https://calendar.google.com/calendar/embed?src=nrqdn4ehck83v1re6bbmsqk2vc%40group.calendar.google.com&ctz=Asia%2FTokyo" target="_blank">公式カレンダー</a>の各予定からご確認いただけます。<br />
         ご都合に合わせてご利用いただけますのでお気軽にお問い合わせください。
         </p>
-        <p clasName="small">
+        <p className="small">
         ＜お問い合わせ＞<br />
         03-5659-0808 / <a href="mailto:staff.rocklands@gmail.com">メール</a>
         </p>
