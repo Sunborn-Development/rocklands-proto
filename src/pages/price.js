@@ -52,8 +52,8 @@ const Landing = (props) => (
           </thead>
           <tbody>
             <tr><td>1日券</td><td>¥2,200</td><td>¥1,650</td></tr>
-            <tr><td>昼・開店〜18時半</td><td>¥1,650<br />シニア¥1,100<span>*4</span></td><td>¥1,100</td></tr>
-            <tr><td>夜・18時〜閉店<span>*1</span></td><td>¥1,650</td><td>¥1,320</td></tr>
+            <tr><td>昼・開店〜18時半</td><td>¥1,760<br />シニア¥1,320<span>*4</span></td><td>¥1,320</td></tr>
+            <tr><td>夜・18時〜閉店<span>*1</span></td><td>¥1,760</td><td>¥1,320</td></tr>
           </tbody>
         </table>
         <hr />
