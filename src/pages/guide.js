@@ -39,7 +39,7 @@ const Landing = (props) => (
         </table>
         <p className="small">
 ※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。<br />
-※混雑状況によって入場制限をする場合がございます。土日祝日は事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただくとスムーズです。一日利用の場合は「開店〜15時」の枠でご予約ください。
+※混雑状況によって入場制限をする場合がございます。土日祝日は事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただことも可能です。一日利用の場合は「開店〜15時」の枠でご予約ください。
         </p>
         <hr />
         <table className="alt">
@@ -100,7 +100,7 @@ const Landing = (props) => (
         <h3>同伴について</h3>
         <p className="text">
           保護者やビレイヤーとして利用者の方に同伴される場合、会員登録・施設利用料は不要です。<br />
-          ただし、同伴の方も施設利用者数の制限対象となります。土日・祝日は予約制でのご利用となります。<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>からお申し込みください。<br />
+          ただし、同伴の方も施設利用者数の制限対象となります。土日祝日は事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただことも可能です。一日利用の場合は「開店〜15時」の枠でご予約ください。
         </p>  
     </div>
     </section>
@@ -110,10 +110,8 @@ const Landing = (props) => (
           <h2>新型コロナウイルス感染拡大防止の取り組みとお願い（施設ご利用前）</h2>
         </header>
         <p className="text">
-          施設のご利用にあたって事前予約（土日・祝日のみ）にご協力ください。<br />
           当店では新型コロナウイルス感染拡大防止のため、コロナ禍において施設利用人数を最大70名までと制限しています。<br />
-          混雑の予想される土日・祝日のみ、<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>をご用意しております。<br />
-          こちらからご来店の予約をいただくと待ち時間なくご利用が可能です。<br />
+          混雑の予想される土日祝日は事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただことも可能です。一日利用の場合は「開店〜15時」の枠でご予約ください。
           ご予約は前日の22時まで受け付けております。<br />
           ご予約は無料です。キャンセルのご連絡は当日のご予約時間の10分前までにご連絡ください。<br />
           キャンセルのご連絡、その他お問い合わせは<a href="tel:0356590808">03-5659-0808</a>までお気軽にご連絡ください。
