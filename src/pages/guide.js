@@ -39,7 +39,7 @@ const Landing = (props) => (
         </table>
         <p className="small">
 ※閉店時間にはジムを閉じます。時間までの退館をお願いいたします。<br />
-※混雑状況によって入場制限をする場合がございます。<!-- 土日祝日は事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただことも可能です。一日利用の場合は「開店〜15時」の枠でご予約ください。 -->
+※混雑状況によって入場制限をする場合がございます。
         </p>
         <hr />
         <table className="alt">
@@ -100,7 +100,7 @@ const Landing = (props) => (
         <h3>同伴について</h3>
         <p className="text">
           保護者やビレイヤーとして利用者の方に同伴される場合、会員登録・施設利用料は不要です。<br />
-          ただし、同伴の方も施設利用者数の制限対象となります。<!-- 土日祝日は事前に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank">予約フォーム</a>でご予約いただことも可能です。一日利用の場合は「開店〜15時」の枠でご予約ください。 -->
+          ただし、同伴の方も施設利用者数の制限対象となります。
         </p>
     </div>
     </section>
