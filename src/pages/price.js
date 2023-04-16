@@ -18,7 +18,7 @@ const Landing = (props) => (
     <section id="one">
       <div className="inner">
         <p className="small">
-          料金はすべて税込（10%） / 2022.10.16更新
+          料金はすべて税込（10%） / 2023.4.1更新
         </p>
         <hr />
         <header className="major">
@@ -51,9 +51,9 @@ const Landing = (props) => (
             <tr><th></th><th>一般</th><th>学生・キッズ<span>*2,3</span></th></tr>
           </thead>
           <tbody>
-            <tr><td>1日券</td><td>¥2,200</td><td>¥1,650</td></tr>
+            <tr><td>1日券</td><td>¥2,310</td><td>¥1,760</td></tr>
             <tr><td>昼・開店〜18時半</td><td>¥1,760<br />シニア¥1,320<span>*4</span></td><td>¥1,320</td></tr>
-            <tr><td>夜・18時〜閉店<span>*1</span></td><td>¥1,760</td><td>¥1,320</td></tr>
+            <tr><td>夜・18時〜閉店<span>*1</span></td><td>¥1,870</td><td>¥1,430</td></tr>
           </tbody>
         </table>
         <hr />
