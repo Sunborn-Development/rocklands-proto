@@ -45,9 +45,11 @@ const Contact = (props) => (
             <span className="icon alt fa-phone"></span>
             <h3>電話・予約</h3>
             <a href="tel:0356590808"><span>03-5659-0808</span></a>
+            {/*
             <div>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkfqWiBSGoy5viXovQ6GVxJgJQ_P4uOHisevQjkfCzAch6mw/viewform" target="_blank" className="button">予約フォーム</a>
             </div>
+            */}
           </div>
         </section>
 
