@@ -5,9 +5,8 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Calendar from '../components/Calendar'
 
-import pdf1 from '../assets/files/register.pdf'
 import pdf2 from '../assets/files/rule.pdf'
-import pdf3 from '../assets/files/rule.2.pdf'
+import qr from '../assets/files/hubspot_qr.jpg'
 import floorGuide from '../assets/images/floorGuide.2.png'
 
 const Landing = (props) => (
@@ -23,7 +22,7 @@ const Landing = (props) => (
     <section id="one">
       <div className="inner">
          <p className="small">
-          2023.4.1更新
+          2024.4.1更新
         </p>
         <header className="major">
           <h2>営業時間</h2>
@@ -66,19 +65,21 @@ const Landing = (props) => (
         <p className="text">下記PDFファイルにて詳細をご確認ください。</p>
         <ul>
           <li>利用規約同意書（<a href={pdf2} target="_blank">PDFファイル</a>）</li>
-          <li>コロナウイルス感染拡大防止に関する同意書（<a href={pdf3} target="_blank">PDFファイル</a>）</li>
         </ul>
         <hr />
         <h3>初回登録時</h3>
         <p className="text">
-          当日の受付時に下記書類のサインが必要となります。<br />
-          PDFファイルをダウンロード・印刷していただき、事前にご記入いただくと当日の受付がスムーズです。
+          当施設を初めてご利用の場合、新規会員登録および利用規約への同意手続きが必要となります。<br />
+          入力はWebフォームです。当日の受付時もしくは事前にご入力ください。下記リンク及びQRコードからWebフォームへアクセスしてください。スマートフォン、PC、タブレットいずれもご利用可能です。<br />
+          ご来店前の事前にご入力いただくと当日の受付がスムーズです。
         </p>
-        <ul>
-          <li>新規会員登録書（<a href={pdf1} target="_blank">PDFファイル</a>）</li>
-          <li>利用規約同意書（<a href={pdf2} target="_blank">PDFファイル</a>）</li>
-          <li>コロナウイルス感染拡大防止に関する同意書（<a href={pdf3} target="_blank">PDFファイル</a>）</li>
-        </ul>
+        <p className="text">
+＜<a href="https://share.hsforms.com/1Mi2subPQST-FAEE7Axho4wq9zw0" target="_blank">入力フォーム</a>＞
+        </p>
+        <p className="text">
+          <img src={qr} />
+        </p>
+
         <p className="small">
           ※「18歳未満、または高校生以下」の方は保護者のサインが必須ですので特にご注意ください。保護者サインが無いと施設利用ができません。
         </p>
@@ -107,18 +108,18 @@ const Landing = (props) => (
     <section id="three">
       <div className="inner">
         <header className="major">
-          <h2>新型コロナウィルス対策について</h2>
+          <h2>感染症対策について</h2>
         </header>
         <p className="text">
-          令和５年３月13日以降、厚生労働省の指針に従い、マスクの着用は、個人の主体的な選択を尊重し、着用は個人の判断に委ねることといたします。<br />
-          尚、継続して手指消毒液を館内に設置しております。ご利用は任意です。
+          マスクの着用は個人の主体的な選択を尊重し、個人の判断に委ねることといたします。<br />
+          手指消毒液を館内に設置しております。ご利用は任意です。
         </p>
         <p className="text">
           飛沫防止対策のお願いとしまして、以下の場合はご来場をお控えください。<br />
           ①発熱（37.5度以上）がある場合<br />
           ②咳や咽頭痛などの症状がある場合<br />
-          ③同居する家族に陽性となった方がいる場合<br />
-          ④他、コロナウィルス感染症の疑いがある場合
+          ③同居する家族に各種感染症で陽性の方がいる場合<br />
+          ④ご本人に各種感染症の疑いがある場合
         </p>
         <p className="text">
           ご来場のお客様皆さまが安心して楽しめるよう、ご協力をお願いいたします。
