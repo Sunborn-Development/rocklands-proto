@@ -131,7 +131,7 @@ const Landing = (props) => (
    
         <table className="alt">
           <thead>
-            <tr><th>講習</th><th>一般</th><th>キッズ・ユース</th></tr>
+            <tr><th>講習</th><th>一般</th></tr>
           </thead>
           <tbody>
             <tr>
@@ -140,10 +140,7 @@ const Landing = (props) => (
                 （1回・1時間）
               </td>
               <td>
-                無料 *1
-              </td>
-              <td>
-                無料 *1
+                ¥4,400（平日無料） *1
               </td>
             </tr>
             <tr>
@@ -152,12 +149,8 @@ const Landing = (props) => (
                 （全2回・各2時間）
               </td>
               <td>
-                ¥6,930 *1,2<br />
-                （ビレイ講習のみの参加可）
-              </td>
-              <td>
                 ¥9,900 *1,2<br />
-                （小学2～中年生・保護者ビレイ講習込み）
+                （ビレイ講習のみの参加可・小学2～中年生は保護者ビレイ講習込み）
               </td>
             </tr>
           </tbody>
